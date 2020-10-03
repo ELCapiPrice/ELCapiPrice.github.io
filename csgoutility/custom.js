@@ -40,3 +40,11 @@
     $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
+function copyToClipboard() {
+    var copyText = "ElCapiPrice"
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText);
+}
+

@@ -53,7 +53,7 @@
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5">CSGO Utility is a discord bot that provides some useful commands for Counter Strike Global Offensive servers. </h1>
+                        <h1 class="mb-5">CSGO Utility is a discord bot that provides some useful commands for Counter Strike Global Offensive discord servers. </h1>
                         <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Invite the bot!</a>
                     </div>
                 </div>
@@ -68,32 +68,16 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="./images/stats.PNG" alt="CSGO Utility - stats">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Stats</h5>
-                                    <p>...</p>
-                                </div>
+                                <img class="d-block w-100" src="./images/csgoutility_stats.PNG" alt="CSGO Utility - stats">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./images/stats.PNG" alt="CSGO Utility - logros">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Logros</h5>
-                                    <p>...</p>
-                                </div>
+                                <img class="d-block w-100" src="./images/csgoutility_logros.PNG" alt="CSGO Utility - logros">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./images/stats.PNG" alt="CSGO Utility - noticias">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Noticias</h5>
-                                    <p>...</p>
-                                </div>
+                                <img class="d-block w-100" src="./images/csgoutility_news.PNG" alt="CSGO Utility - noticias">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./images/stats.PNG" alt="CSGO Utility - vac">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Status VAC</h5>
-                                    <p>...</p>
-                                </div>
+                                <img class="d-block w-100" src="./images/csgoutility_vac.PNG" alt="CSGO Utility - vac">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselCSGO" role="button" data-slide="prev">
@@ -154,22 +138,12 @@
                 <hr>
             </div>
             <div class="row">
-                <div class="col-lg-4 my-auto">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-5 my-auto">
+                    <img src="./images/csgoutility_update.PNG" class="img-fluid" alt="csgoutility - update">
                 </div>
-                <div class="col-lg-8 my-auto">
+                <div class="col-lg-1 my-auto">
+                </div>
+                <div class="col-lg-6 my-auto">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6">
@@ -209,21 +183,73 @@
         </div>
     </section>
 
-    <!--
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Stop waiting.<br>Start building.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+    <section id="wiki">
+        <div class="container">
+            <h2>How to use</h2>
+            <hr>
+            <br>
+            <p>1.- <a href="https://discord.com/api/oauth2/authorize?client_id=731233586912559217&permissions=522304&redirect_uri=https%3A%2F%2Fwww.elcapiprice.github.io%2Fcsgoutility%2Fthanks&scope=bot" target="_blank">Invite</a> the bot to yout guild. It is strongly reccomended that you give the permissions listed automatically.</p>
+            <p>2.- Set the prefix. The default bot prefix is the "!" symbol, but you can change it with !prefix (new prefix)</p>
+            <p>3.- Sets the update news channel. By default they will be sent in the channel called "general" but if it does not exist it will not send the messages. To configure it use !config csgo_news_channel (channel name)</p>
+            <p>4.- Do you want to change the language of the bot? By default the language is English. You can change the language with !lang [language]</p>
+            <p>5.-  That's it! Feel free to play around with the commands! </p>
+            <br>
+            <hr>
+            <br>
+            <h2>Commands list</h2>
+            <p>!help - Displays the available commands</p>
+            <p>!config csgo_news_channel [channelName] - Configure the CSGO news bot</p>
+            <p>!language [esp|eng] - Change the language of the bot</p>
+            <p>!stats [user/steamID] - Check the CSGO statistics for any account</p>
+            <p>!prefix [prefix] - Change the bot prefix</p>
+            <p>!logros [usuario/steamID] (page) - Check out CSGO's achievements for any account</p>
+            <p>!vac [user/steamID] - Check the VAC status of an account</p>
+            <br>
+            <hr>
+            <br>
+            <h2>Languages Availables</h2>
+            <p>- English (eng)</p>
+            <p>- Español (esp)</p>
+        </div>
+    </section>
+
+    <section class="contact bg-donaciones" id="donate">
+        <div class="container">
+            <h2>
+                Donate
+            </h2>
+            <p>A donation for my work would help me continue to develop more applications like these.</p>
+            <div class="row">
+                <div class="bg-paypal rounded-pill col-lg-3 buttons-donation shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/paypal-logo.png" alt="PayPal Logo" width="63" height="55" style="padding-bottom: 10px;">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="FV8VXNT34BGKN" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                </div>
+                <div class="col-lg-1">
+                </div>
+                <div class="bg-mercadopago rounded-pill col-lg-8 buttons-donation shadow p-3 mb-5 bg-white rounded">
+                    <img src="images/mercadopago-logo.png" alt="MercadoPago Logo" width="81" height="61" style="padding-bottom: 10px;">
+                    <br>
+                    <span>~1 USD</span>
+                    <script src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"data-preference-id="206371546-20a6dbc2-2cf7-4190-8e36-ac03a857aade"></script>
+                    <span>~2 USD</span>
+                    <script src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"data-preference-id="206371546-f747dbcf-f10f-4dca-83d2-fa69712100e6"></script>
+                    <span>~5 USD</span>
+                    <script src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"data-preference-id="206371546-205dccb6-fb75-403b-81c7-11dad5652b28"></script>
+                    <span>~10 USD</span>
+                    <script src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"data-preference-id="206371546-75d517a1-bd85-49de-a7d1-374205dbb28f"></script>
+                </div>
             </div>
         </div>
-        <div class="overlay"></div>
     </section>
-    -->
 
     <section class="contact bg-primary" id="contact">
         <div class="container">
-            <h2>We
+            <h2>I
                 <i class="fas fa-heart"></i>
                 new friends!</h2>
             <ul class="list-inline list-social">
@@ -238,8 +264,8 @@
                     </a>
                 </li>
                 <li class="list-inline-item social-google-plus">
-                    <a href="#">
-                        <i class="fab fa-google-plus-g"></i>
+                    <a href="#" id="myA" onclick="copyToClipboard()">
+                        <i class="fab fa-discord"></i>
                     </a>
                 </li>
             </ul>
@@ -249,7 +275,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; Your Website 2020. All Rights Reserved.</p>
+            <p>&copy; CSGOUtility 2020. All Rights Reserved.</p>
             <ul class="list-inline">
                 <li class="list-inline-item">
                     <a href="#">Privacy</a>
