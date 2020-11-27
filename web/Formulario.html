@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="cssFormulario.css" />
+</head>
+<body>
+<a id="regresar" href="./index.html"> &larr; Regresar</a>
+<header>
+    <h1 id="encabezado">FORMULARIO</h1>
+</header>
+
+<section class="container">
+    <div class="form">
+        <form action="" method="get">
+            <div class="item">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" value="Miguel Angel Medina Martínez" id="nombre" maxlength="60" />
+            </div>
+            <div class="item">
+                <label for="edad">Edad: </label>
+                <input type="text" name="edad" id="edad" size="5" maxlength="2"/>
+            </div>
+            <br/>
+            <div class="item">
+                <label>Sexo:</label>
+                <br>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" checked="checked" name="sexo" value="masculino"/>
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino"/>
+                <label for="nosexo">Prefiero no decirlo</label>
+                <input type="radio" name="sexo" id="nosexo" value="No dijo">
+                <input type="hidden" value="Algo para el servidor"/>
+            </div>
+            <br>
+            <div class="item">
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" size="5" maxlength="2" readonly/>
+            </div>
+            <br/><br/><br/>
+            <div class="item">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar"> <br/>
+                <input type="button" value="otro botón">
+            </div>
+            <div class="item">
+                <textarea name="textarea" id="textarea" cols="70" rows="5">Texto que aparece por default</textarea>
+                <button>Este también es un botón</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/fondo-azul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    max-width: 70em;
+    margin: 2em auto;
+    clear: both;
+    position: relative;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.container {
+    max-width: 50rem;
+    margin: auto;
+    overflow: auto;
+}
+
+.form{
+    max-width: 40rem;
+    margin: auto;
+    border: 3px solid #73AD21;
+    padding: 3rem 2rem;
+    background-color: #fffbee;
+}
+
+.item{
+    margin: 10px 0;
+}
+
+.item input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+
+.item label{
+    font-family: "Bernard MT Condensed", sans-serif;
+    letter-spacing: 0.097em;
+    font-weight: 400;
+}
+
+.item input[type=radio]{
+    box-shadow: tomato;
+}
+
+
+.item input[type=radio]:checked{
+    box-shadow: 0 0 0 3px greenyellow;
+}
+
+#regresar{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #6bff00;
+    margin: 3em 3em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color: #6eff00;
+    text-align:center;
+    transition: all 0.75s;
+}
+#regresar:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+}
+
