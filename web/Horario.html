@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horario</title>
+    <link rel="stylesheet" href="cssHorario.css" />
+</head>
+<body>
+<a href="/Practica1.html"> &slarr; Regresar</a>
+
+<table id="header">
+    <tr>
+        <td class="escudo">
+            <img class="escudoIPN" src="./images/logo-ipn.png" alt="Escudo IPN">
+        </td>
+        <td>
+            <div class="titulo">
+                <h1>Horario Personal</h1>
+            </div>
+        </td>
+        <td class="escudo">
+            <img class="escudoESCOM" src="./images/escudoESCOM.png" alt="Escudo ESCOM">
+        </td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th></th>
+        <th class="dias">Lunes</th>
+        <th class="dias">Martes</th>
+        <th class="dias">Miercoles</th>
+        <th class="dias">Jueves</th>
+        <th class="dias">Viernes</th>
+    </tr>
+    <tr>
+        <td class="hora">7:00 - 8:30</td>
+        <td class="algoritmos materia" onmouseenter="playSound(3)">Análisis de Algoritmos</td>
+        <td class="web materia" onmouseenter="playSound(1)">Tecnologías para la Web</td>
+        <td class="web materia" onmouseenter="playSound(1)">Tecnologías para la Web</td>
+        <td class="algoritmos materia" onmouseenter="playSound(3)">Análisis de Algoritmos</td>
+        <td class="web materia" onmouseenter="playSound(1)">Tecnologías para la web</td>
+    </tr>
+    <tr>
+        <td class="hora">8:30 - 10:00</td>
+        <td class="redes materia" onmouseenter="playSound(2)">Aplicaciones para Comunicaciones de Red</td>
+        <td class="vacio"></td>
+        <td class="redes materia" onmouseenter="playSound(2)">Aplicaciones para Comunicaciones de Red</td>
+        <td class="redes materia" onmouseenter="playSound(2)">Aplicaciones para Comunicaciones de Red</td>
+        <td class="algoritmos materia" onmouseenter="playSound(3)">Análisis de Algoritmos</td>
+    </tr>
+    <tr>
+        <td class="hora">10:00 - 10:30</td>
+        <td class="vacio"></td>
+        <td class="vacio"></td>
+        <td class="vacio"></td>
+        <td class="vacio"></td>
+        <td class="vacio"></td>
+    </tr>
+    <tr>
+        <td class="hora">10:30 - 12:00</td>
+        <td class="vacio"></td>
+        <td class="software materia" onmouseenter="playSound(4)">Ingenieria de Software</td>
+        <td class="software materia" onmouseenter="playSound(4)">Ingenieria de Software</td>
+        <td class="vacio"></td>
+        <td class="software materia" onmouseenter="playSound(4)">Ingenieria de Software</td>
+    </tr>
+    <tr>
+        <td class="hora">12:00 - 13:30</td>
+        <td class="dsd materia" onmouseenter="playSound(5)">Diseño de Sistemas Digitales</td>
+        <td class="so materia" onmouseenter="playSound(6)">Sistemas Operativos</td>
+        <td class="dsd materia" onmouseenter="playSound(5)">Diseño de Sistemas Digitales</td>
+        <td class="dsd materia" onmouseenter="playSound(5)">Diseño de Sistemas Digitales</td>
+        <td class="so materia" onmouseenter="playSound(6)">Sistemas Operativos</td>
+    </tr>
+    <tr>
+        <td class="hora">13:30 - 15:00</td>
+        <td class="node materia" onmouseenter="playSound(7)">Desarrollo de aplicaciones en NodeJS</td>
+        <td class="vacio"></td>
+        <td class="node materia" onmouseenter="playSound(7)">Desarrollo de aplicaciones en NodeJS</td>
+        <td class="vacio"></td>
+        <td class="vacio"></td>
+    </tr>
+
+</table>
+
+
+<script type="text/javascript">
+    let playSound = (sound) =>{
+        if(sound == 1){
+            let audio = new Audio('./sonidos/guitarra1.mp3');
+            audio.play();
+        }
+        if(sound == 2){
+            let audio = new Audio('./sonidos/guitarra2.mp3');
+            audio.play();
+        }
+        if(sound == 3){
+            let audio = new Audio('./sonidos/guitarra3.mp3');
+            audio.play();
+        }
+        if(sound == 4){
+            let audio = new Audio('./sonidos/guitarra4.mp3');
+            audio.play();
+        }
+        if(sound == 5){
+            let audio = new Audio('./sonidos/guitarra5.mp3');
+            audio.play();
+        }
+        if(sound == 6){
+            let audio = new Audio('./sonidos/guitarra6.mp3');
+            audio.play();
+        }
+        if(sound == 7){
+            let audio = new Audio('./sonidos/notaMusical.mp3');
+            audio.play();
+        }
+
+    }
+</script>
+</body>
+</html>

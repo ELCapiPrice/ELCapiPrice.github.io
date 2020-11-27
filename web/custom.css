@@ -1,0 +1,207 @@
+body{
+    background-color: #737373;
+}
+
+table, th, td {
+    border: 1px solid fuchsia;
+}
+table {
+    width: 100%;
+}
+#casilla1{
+    width: 25%;
+    background-color: #006847;
+}
+#casilla3{
+    width: 25%;
+    background-color: #CE1126;
+}
+
+#titulo{
+    width: 50%;
+    background-color: #FFFFFF;
+    background-image: url("./images/escudo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17rem;
+}
+
+.vacio{
+    background-color: #ffd5cd;
+}
+
+.imagenRensiva {
+    width: 150px;
+    border: 5px solid red;
+    display: block;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    margin: 1rem auto;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px greenyellow;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#noticias{
+    background-color: darksalmon;
+}
+
+.noticia{
+    background-color: #ffe05d;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 2px solid #ff9642;
+    margin: 1rem;
+}
+
+h3 a{
+    font-size: 1.5rem;
+}
+
+.contenedor{
+    margin: 1rem;
+    background-color: #fff;
+    padding: 0.3rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+a:link{
+    color: dimgray;
+}
+
+a:hover {
+    color: green;
+}
+
+.datos{
+    background-color: antiquewhite;
+    color: chocolate;
+}
+.datos:hover{
+    background-color: #dbdbdb;
+}
+
+.datos b p{
+    font-family: Agency FB, sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 18px;
+    line-height: 0.3;
+    letter-spacing: 0.028em;
+}
+
+.datosAcademicos{
+    background-color: rgb(65, 202, 181);
+}
+.datosAcademicos:hover{
+    border: 3px solid red;
+}
+
+p.dashed {
+    border-style: dashed;
+    padding: 2rem 2rem;
+    background-color: forestgreen;
+    margin: 2rem 20rem;
+}
+
+p.dashed:hover{
+    background-color: #3be03b;
+}
+
+p.promedio{
+    border-left: 6px solid red;
+    background-color: gray;
+    margin: 2rem 15rem;
+    padding: 1rem;
+}
+
+#primero, #segundo, #tercero{
+    background-color: silver;
+    border-radius: 25px;
+    padding: 2rem;
+    border: 5px outset greenyellow;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #34626c;
+
+}
+#primero:hover, #segundo:hover, #tercero:hover{
+    border: 5px outset lawngreen;
+    background-color: #e5e3e3;
+}
+
+.subtitle{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    background-color: skyblue;
+    padding: 2rem;
+    border: 2px solid rebeccapurple;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #ec5858;
+}
+
+.subtitle::after {
+    content: " (6 meses)";
+}
+
+.promGeneral{
+    margin: 2rem 5rem;
+    padding: 2rem 1rem;
+    border-left: 6px solid orangered;
+    background-color: silver;
+}
+
+.otrosDatos{
+    background-color: lightgreen;
+    border: 5px solid purple;
+}
+
+#OtrosDatos{
+    color: salmon;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 5px dashed orangered;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pasatiempos{
+    background-color: #ffa62b;
+    border-radius: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    border: 5px outset #db6400;
+    font-family: "Cambria Math", sans-serif;
+    font-weight: 800;
+    color: #555555;
+}
+
+.pasatiempos:hover{
+    background-color: #fd8900;
+}
+
+td p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.subtituloDatos{
+    background-color: honeydew;
+    margin: 2rem 15rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    border: 2px solid #000;
+    font-style: italic;
+}
+
+.escuela{
+    color: red;
+}
