@@ -246,3 +246,15 @@ td p{
 .listaGreek{
     list-style: lower-greek;
 }
+.contenedorBotones{
+    padding: 0 40px;
+}
+.recuadro{
+    background-color: #117a8b;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.recuadro h2{
+    color: #FFF;
+    text-shadow: 2px 2px black;
+}

@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7851d7f8-4d1c-47f8-a45e-9cee4842a2e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/Formulario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/cssFormulario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/Fondo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/fondo-azul.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Horario.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Horario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cssHorario.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/cssHorario.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cssFormulario.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/cssFormulario.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
@@ -86,7 +82,8 @@
       <workItem from="1601672867605" duration="976000" />
       <workItem from="1601759478190" duration="7771000" />
       <workItem from="1606492904454" duration="3802000" />
-      <workItem from="1606502439679" duration="6292000" />
+      <workItem from="1606502439679" duration="6330000" />
+      <workItem from="1606606107677" duration="1427000" />
     </task>
     <servers />
   </component>
