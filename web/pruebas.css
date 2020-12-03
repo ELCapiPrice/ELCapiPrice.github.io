@@ -1,0 +1,27 @@
+.container {
+    text-align: center; /* necesario para la class .center */
+    background-color: red;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+    background: green;
+}
+
+.left {
+    float: left;
+    background-color: #117a8b;
+}
+
+.center {
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #f21de7;
+}
+
+.right {
+    float: right;
+    background-color: #a4e271;
+}

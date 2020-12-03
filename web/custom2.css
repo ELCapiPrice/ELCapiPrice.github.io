@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrap{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#left-col{
+    width: 15%;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#right-col{
+    width: 60%;
+    position: absolute;
+    left: 15%;
+    float: left;
+}
+
+#sidebar{
+    width: 25%;
+    float: right;
+}
+
+.boton{
+    display:inline-block;
+    padding:0.4em 1.3em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF !important;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+.blue{
+    background-color:#4e9af1;
+}
+.blue:hover{
+    background-color: #6cabf1;
+}
+.purpura{
+    background-color:#9a4ef1;
+}
+.purpura:hover{
+    background-color: #a66fe9;
+}
+
+.datos{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: #FFF;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 30px;
+    transition: all .3s ease;
+}
+
+.datos h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.datos p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin: 4px 0;
+}
+
+.datos a{
+    margin: 22px 0;
+    background: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 1px 5px;
+    border-radius: 25px;
+    transition: .3s ease;
+}
+
+.datos a:hover{
+    border-radius: 4px;
+}
+
+.contenedor-botones{
+    margin: 0 auto;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: white;
+    padding: 5px 0;
+}
+
+.contenedor-botones a{
+    margin: 5px 0;
+}
+
+.contenedor-botones h2{
+    font-family: Dubai, sans-serif;
+    font-weight: 100;
+}
+
+#contenedor-noticias{
+    padding: 3px;
+}
+
+.Noticia{
+    border-radius: 5px;
+    border: 2px solid #000;
+    background-color: #FFF;
+    margin: 15px 0;
+    padding: 10px;
+    transition: .5s ease;
+}
+
+.Noticia:hover{
+    background-color: #d0d0d0;
+}
+
+.Noticia h3{
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.Noticia h3 a{
+    font-weight: 100;
+    font-family: Century, sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Noticia p{
+    text-align: justify;
+    font-family: "Dubai Light", sans-serif;
+    letter-spacing: -0.048em;
+    line-height: 1.3;
+}
+
+.escolares{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: #FFF;
+    border: 2px solid #000000;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 30px;
+    transition: all .3s ease;
+}
+
+.escolares h2{
+    font-family: "Modern No. 20", sans-serif;
+    letter-spacing: 0.080em;
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.escolares p{
+    font-size: 19px;
+    font-family: "Segoe UI", sans-serif;
+    text-align: left;
+}
+
+.escuela{
+    color: red;
+}
+
+.dashed {
+    margin: 10px auto;
+    width: 30%;
+    padding: 10px;
+    border: 2px dashed #3cb807;
+    text-align: center;
+    background-color: #e7f1dd;
+}
+
+.container{
+    margin: 10px 10px;
+    padding: 15px 20px;
+}
+
+.bg-yellow{
+    background-color: #f8f7da;
+}
+.border-yellow{
+    border: 2px solid yellow;
+}
+.rounded{
+    border-radius: 5px;
+}
+.escolares h4{
+    font-size: 30px;
+    font-family: Candara, sans-serif;
+    text-align: left;
+}
+.materias{
+    backgorund-color: #FFF;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.materias p{
+    margin: 0 auto 20px;
+    width: 50%;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.materias ol{
+    padding: 30px;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.materias ol li{
+    margin: 5px 0;
+}
+
+.promGeneral{
+    border: 1px solid #72ea20;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f3ffe1;
+}
+
+.otros{
+    background-color: #ffffff;
+    width: 70%;
+    margin: 0 auto 30px;
+    padding: 35px;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+.otros h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Helvetica Neue", sans-serif;
+    padding: 15px;
+    background-color: #FFF;
+    width: 50%;
+    margin: 0 auto 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.otros p{
+    padding: 10px;
+    background: #000;
+    color: white;
+    width: 40%;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.otros ul{
+    background: white;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+
+
+
+header{
+    position: relative;
+    background: blue;
+    width: 100%;
+    height: 250px;
+}
+
+.left{
+    position: relative;
+    background-color: #006847;
+    width: 25%;
+    height: 250px;
+}
+
+.center{
+    position: absolute;
+    background-image: url("./images/escudo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15rem;
+    background-color: #FFFFFF;
+    width: 50%;
+    top: 0;
+    left: 25%;
+    height: 250px;
+}
+
+.right{
+    position: absolute;
+    background-color: #CE1126;
+    width: 25%;
+    top: 0;
+    left: 75%;
+    height: 250px;
+}
+
+
+.imagen{
+    position: absolute;
+    border: 5px solid red;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    background: #3be03b;
+    width: 130px;
+    height: 200px;
+    top: 1.6em;
+    left: 5.5em;
+
+}
+
+.imagen2{
+    position: relative;
+    width: 100px;
+    border: 5px solid red;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    background: #3be03b;
+    top: 2.5em;
+    left: 7em;
+}
+
+#titulo h1{
+    padding: 100px 0 0 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
