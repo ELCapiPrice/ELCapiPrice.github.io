@@ -11,26 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7851d7f8-4d1c-47f8-a45e-9cee4842a2e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hexagramas/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Backgorund4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Background3-resized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Carta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yang mutante.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yin mutante.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hexagramas/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/EjemploJavaScript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/FormularioGrande.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/MedinaMartínezMiguelAngelPractica6.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/formulario.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pruebas/position.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pruebas/position.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Formulario.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +89,8 @@
       <workItem from="1608128154340" duration="4093000" />
       <workItem from="1608492803944" duration="20000" />
       <workItem from="1609097303111" duration="7000" />
-      <workItem from="1610595541178" duration="90000" />
+      <workItem from="1610595541178" duration="429000" />
+      <workItem from="1610637201011" duration="72000" />
     </task>
     <servers />
   </component>
