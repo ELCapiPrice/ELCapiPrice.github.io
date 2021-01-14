@@ -14,21 +14,37 @@
 
 <section class="container">
     <div class="form">
-        <form action="" method="get">
+        <form action="" method="get" onsubmit="return sendForm();">
+            <div class="item">
+                <label for="apellidoPat">Apellido Paterno: </label>
+                <input type="text" name="apellidoPat" id="apellidoPat" maxlength="60" />
+            </div>
+            <div class="item">
+                <label for="apellidoMat">Apellido Materno: </label>
+                <input type="text" name="apellidoMat" id="apellidoMat" maxlength="60" />
+            </div>
             <div class="item">
                 <label for="nombre">Nombre: </label>
-                <input type="text" name="nombre" value="Miguel Angel Medina Martínez" id="nombre" maxlength="60" />
+                <input type="text" name="nombre" id="nombre" maxlength="60" />
             </div>
             <div class="item">
                 <label for="edad">Edad: </label>
                 <input type="text" name="edad" id="edad" size="5" maxlength="2"/>
+            </div>
+            <div class="item">
+                <label for="curp">CURP: </label>
+                <input type="text" name="curp" id="curp"  maxlength="18"/>
+            </div>
+            <div class="item">
+                <label for="correo">Correo: </label>
+                <input type="text" name="correo" id="correo"/>
             </div>
             <br/>
             <div class="item">
                 <label>Sexo:</label>
                 <br>
                 <label for="masculino">Masculino</label>
-                <input type="radio" id="masculino" checked="checked" name="sexo" value="masculino"/>
+                <input type="radio" id="masculino" name="sexo" value="masculino"/>
                 <label for="femenino">Femenino</label>
                 <input type="radio" id="femenino" name="sexo" value="femenino"/>
                 <label for="nosexo">Prefiero no decirlo</label>
@@ -38,7 +54,7 @@
             <br>
             <div class="item">
                 <label for="password">Password: </label>
-                <input type="password" id="password" name="password" size="5" maxlength="2" readonly/>
+                <input type="password" id="password" name="password" maxlength="2"/>
             </div>
             <br/><br/><br/>
             <div class="item">
@@ -47,7 +63,7 @@
                 <input class="boton otro" type="button" value="otro botón">
             </div>
             <div class="item">
-                <textarea name="textarea" id="textarea" cols="70" rows="5">Texto que aparece por default</textarea>
+                <textarea name="textarea" id="pasatiempos" cols="70" rows="5" placeholder="Escribe tus pasatiempos"></textarea>
                 <br/>
                 <br/>
                 <br/>
@@ -56,6 +72,8 @@
         </form>
     </div>
 </section>
+
+<script src="./formulario.js" type="text/javascript"></script>
 
 </body>
 </html>

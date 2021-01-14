@@ -11,9 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7851d7f8-4d1c-47f8-a45e-9cee4842a2e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hexagramas/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Backgorund4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Background3-resized.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Carta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yang mutante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yin mutante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/images/Yin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hexagramas/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/EjemploJavaScript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/FormularioGrande.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MedinaMartínezMiguelAngelPractica6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/formulario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pruebas/position.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pruebas/position.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/PaginaPersonal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Formulario.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,14 +69,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\web" />
+      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\web\images" />
+      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\csgoutility\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\web" />
       <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\csgoutility" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\web\images" />
-      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\web" />
-      <recent name="C:\Users\ElCapiPrice\WebstormProjects\ELCapiPrice.github.io\csgoutility\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +99,16 @@
       <workItem from="1606492904454" duration="3802000" />
       <workItem from="1606502439679" duration="6330000" />
       <workItem from="1606606107677" duration="1535000" />
-      <workItem from="1606915385515" duration="24514000" />
+      <workItem from="1606915385515" duration="25036000" />
+      <workItem from="1607040639136" duration="63000" />
+      <workItem from="1607275093621" duration="13394000" />
+      <workItem from="1607436028451" duration="2905000" />
+      <workItem from="1607461546646" duration="64000" />
+      <workItem from="1608124263435" duration="3650000" />
+      <workItem from="1608128154340" duration="4093000" />
+      <workItem from="1608492803944" duration="20000" />
+      <workItem from="1609097303111" duration="7000" />
+      <workItem from="1610595541178" duration="90000" />
     </task>
     <servers />
   </component>
@@ -105,10 +131,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1269" y="-406" key="FileChooserDialogImpl" timestamp="1600642375636">
-      <screen x="-1920" y="-581" width="1920" height="1050" />
+    <state x="423" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608128682860">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="423" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1608128682860" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1608492821497">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="-1269" y="-406" key="FileChooserDialogImpl/0.0.1366.738/-1920.-581.1920.1050@-1920.-581.1920.1050" timestamp="1600642375636" />
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1600626094708" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1608492821497" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1608129925921">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1608129925921" />
   </component>
 </project>

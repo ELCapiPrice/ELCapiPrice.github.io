@@ -1,0 +1,80 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 400vh;
+}
+
+.header{
+    background: rgb(67, 233, 38);
+    position: relative;
+}
+
+.list-group .list-header{
+    font-family: 'Poppings', sans-serif;
+    background-color: #262626;
+    color: #3be03b;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* If browser supports sticky put this */
+@supports (position: sticky) {
+    .header{
+        background: rgb(67, 233, 38);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .list-group .list-header{
+        position: sticky;
+        top: 38px;
+    }
+}
+
+.header div{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    background: rgb(67, 233, 38);
+}
+
+.header div:hover{
+    background: rgb(53, 162, 35);
+}
+
+.opcion1{
+
+}
+
+.opcion2{
+
+}
+
+.opcion3{
+
+}
+
+.header div a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container{
+    margin: 5em;
+    padding: 15px;
+    background: #bcbcbc;
+}
+
+.list-group .list-content{
+    font-family: 'Roboto', sans-serif;
+}
+.list-group .list-content div{
+    margin: 15px 0 0 0;
+}
