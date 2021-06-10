@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7851d7f8-4d1c-47f8-a45e-9cee4842a2e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/personalWeb/pdf/publicKey.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalWeb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/personalWeb/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7851d7f8-4d1c-47f8-a45e-9cee4842a2e5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +95,7 @@
       <workItem from="1621375480261" duration="47000" />
       <workItem from="1621375547603" duration="7489000" />
       <workItem from="1621986763803" duration="47000" />
-      <workItem from="1622591604923" duration="308000" />
+      <workItem from="1622591604923" duration="559000" />
     </task>
     <servers />
   </component>
